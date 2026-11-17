@@ -10,5 +10,5 @@ public class ReadRegistration
     
     public DateTime RegisteredAt { get; set; }
     
-    public RegistrationStatus RegistrationStatus { get; set; }
+    public RegistrationStatus Status { get; set; }
 }

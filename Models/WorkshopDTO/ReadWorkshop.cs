@@ -2,6 +2,8 @@ namespace Community_Workshop_Booking.Models.WorkshopDTO;
 
 public class ReadWorkshop
 {
+    public int WorkshopId {get; set;}
+    
     public string Title {get; set;}
     
     public string Description {get; set;}

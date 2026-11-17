@@ -45,9 +45,10 @@ public class VenueRepository : IVenueRepository
 
         if (venue == null)
         {
-            return venue;
+            return null;
         }
-
+ 
+        _context.Venue.Remove(venue);
         await _context.SaveChangesAsync();
         return venue;
     }

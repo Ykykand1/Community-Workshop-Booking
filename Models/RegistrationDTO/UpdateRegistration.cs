@@ -6,5 +6,5 @@ public class UpdateRegistration
     
     public int UserId { get; set; }
     
-    public RegistrationStatus RegistrationStatus { get; set; }
+    public RegistrationStatus Status { get; set; }
 }

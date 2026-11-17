@@ -10,8 +10,8 @@ public class CategoryModel
     public int CategoryId { get; set; }
     
     [StringLength(100)]
-    string CategoryName { get; set; }
+    public string CategoryName { get; set; }
     
     bool isDeleted  { get; set; } =  false;
     
-}
+}   

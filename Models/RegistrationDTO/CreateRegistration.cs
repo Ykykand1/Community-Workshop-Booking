@@ -10,5 +10,5 @@ public class CreateRegistration
     [Required]
     public int UserId { get; set; }
 
-    public RegistrationStatus RegistrationStatus { get; set; }
+    public RegistrationStatus Status { get; set; }
 }

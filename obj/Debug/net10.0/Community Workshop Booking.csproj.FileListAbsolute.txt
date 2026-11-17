@@ -166,3 +166,4 @@ C:\Users\User\OneDrive\Desktop\Projekte\Community Workshop Booking\Community Wor
 C:\Users\User\OneDrive\Desktop\Projekte\Community Workshop Booking\Community Workshop Booking\obj\Debug\net10.0\Community Workshop Booking.pdb
 C:\Users\User\OneDrive\Desktop\Projekte\Community Workshop Booking\Community Workshop Booking\obj\Debug\net10.0\Community Workshop Booking.genruntimeconfig.cache
 C:\Users\User\OneDrive\Desktop\Projekte\Community Workshop Booking\Community Workshop Booking\obj\Debug\net10.0\ref\Community Workshop Booking.dll
+C:\Users\User\OneDrive\Desktop\Projekte\Community Workshop Booking\Community Workshop Booking\obj\Debug\net10.0\Community Workshop Booking.sourcelink.json

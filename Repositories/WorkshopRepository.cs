@@ -27,7 +27,7 @@ public class WorkshopRepository : IWorkshopRepository
     public async Task<WorkshopModel> Add(WorkshopModel workshop)
     {
         //shton workshopin ne databaze
-        _context.Workshop.Add(workshop);
+        await _context.Workshop.AddAsync(workshop);
         //ruan ndryshimet
         await _context.SaveChangesAsync();
 
