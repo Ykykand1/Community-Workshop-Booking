@@ -12,5 +12,5 @@ public interface IVenueRepository
     
     Task<VenueModel> UpdateVenue(VenueModel venue);
     
-    Task<VenueModel> DeleteVenue(int id);
+    Task<VenueModel?> DeleteVenue(int id);
 }

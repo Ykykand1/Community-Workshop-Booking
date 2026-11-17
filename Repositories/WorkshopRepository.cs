@@ -41,7 +41,7 @@ public class WorkshopRepository : IWorkshopRepository
         return workshop;
     }
 
-    public async Task<WorkshopModel> Delete(int id)
+    public async Task<WorkshopModel?> Delete(int id)
     {
         var workshop = await _context.Workshop.FindAsync(id);
         if (workshop == null)

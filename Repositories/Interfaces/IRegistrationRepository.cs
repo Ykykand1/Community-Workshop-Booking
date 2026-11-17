@@ -12,5 +12,5 @@ public interface IRegistrationRepository
     
     Task<RegistrationModel> UpdateRegistration(RegistrationModel registration);
     
-    Task<RegistrationModel> DeleteRegistration(int id);
+    Task<RegistrationModel?> DeleteRegistration(int id);
 }

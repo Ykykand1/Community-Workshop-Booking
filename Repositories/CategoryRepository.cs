@@ -38,7 +38,7 @@ public class CategoryRepository : ICategoryRepository
         return category;
     }
 
-    public async Task<CategoryModel> DeleteCategory(int id)
+    public async Task<CategoryModel?> DeleteCategory(int id)
     {
         var category = await _context.Category.FindAsync(id);
         if (category == null)

@@ -12,5 +12,5 @@ public interface ICategoryRepository
     
     Task<CategoryModel> UpdateCategory(CategoryModel category);
     
-    Task<CategoryModel> DeleteCategory(int id);
+    Task<CategoryModel?> DeleteCategory(int id);
 }

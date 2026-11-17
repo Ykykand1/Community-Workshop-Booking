@@ -38,7 +38,7 @@ public class RegistrationRepository : IRegistrationRepository
         return registration;
     }
 
-    public async Task<RegistrationModel> DeleteRegistration(int id)
+    public async Task<RegistrationModel?> DeleteRegistration(int id)
     {
         var registration = await _context.Registration.FindAsync(id);
         if (registration == null)

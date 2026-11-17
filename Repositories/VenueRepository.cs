@@ -39,7 +39,7 @@ public class VenueRepository : IVenueRepository
         return venue;
     }
 
-    public async Task<VenueModel> DeleteVenue(int id)
+    public async Task<VenueModel?> DeleteVenue(int id)
     {
         var venue = await _context.Venue.FindAsync(id);
 

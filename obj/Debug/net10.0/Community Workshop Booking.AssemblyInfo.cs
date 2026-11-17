@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Community Workshop Booking")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+560b3ff1bb78b4cc4014af94b61cd3608da44392")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c75ccafbff917163aa59f82b0e5dff4c283cf432")]
 [assembly: System.Reflection.AssemblyProductAttribute("Community Workshop Booking")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Community Workshop Booking")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

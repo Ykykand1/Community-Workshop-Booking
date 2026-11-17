@@ -17,5 +17,5 @@ public interface IWorkshopRepository
     Task<WorkshopModel> Update(WorkshopModel workshop);
     
     //fshin nje repository
-    Task<WorkshopModel> Delete(int id);
+    Task<WorkshopModel?> Delete(int id);
 }
